@@ -1,4 +1,4 @@
-# flsk-app-CI
+# falsk-app-CI
 
 
 run to create and run docker image of simple flask app
