@@ -31,4 +31,4 @@ jobs:
           context: .
           file: .flask_app/Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/flask-CI
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/flask-ci
