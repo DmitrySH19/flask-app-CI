@@ -2,12 +2,23 @@
 
 <head>
     <title>Hello world</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/clock.js') }}"></script>
 </head>
 
 <body>
     <h1>Hello world.
         Curren Date is - {{current_date}}.
         Curren Time is - {{current_time}}.</h1>
+        <div class="clock">
+            <ul>
+              <li id="hours">00</li>
+              <li id="separator">:</li>
+              <li id="minutes">00</li>
+              <li id="separator">:</li>
+              <li id="seconds">00</li>
+            </ul>
+          </div>
 </body>
 
 </html>
