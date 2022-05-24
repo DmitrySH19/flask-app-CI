@@ -5,6 +5,14 @@ body {
   color: rgb(143, 206, 92);
 }
 
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
 .clock {
   position: absolute;
   top: 50%;
